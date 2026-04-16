@@ -1,0 +1,33 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Environment
+.env
+.env.local
+.env.*.local
+*.secret
+
+# Dependencies
+node_modules/
+vendor/
+__pycache__/
+*.pyc
+
+# Build
+dist/
+build/
+*.o
+*.so
+
+# Docker
+.docker/
+
+# Terraform
+*.tfstate
+*.tfstate.backup
+.terraform/
